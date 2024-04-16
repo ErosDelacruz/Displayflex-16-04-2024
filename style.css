@@ -1,0 +1,88 @@
+body {
+background-color: rgb(118, 186, 232);
+color: rgba(0, 0, 0, 0.475);
+}
+
+
+.box /* Section Pai */
+{
+     width: 300px;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+}
+
+.item /* Div/filhos do Section */
+{
+     background-color: crimson;
+     font-size: 40px;
+     text-align: center;
+     margin: 5px;
+}
+
+h1 {
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 24px;
+}
+
+.box-flex /* Section-Flex */
+{
+     width: 400px;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+     display: flex;
+}
+
+.box-flex-wrap /* Section-Flex-Wrap/ Pai */
+{
+     width: 61%;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.box-flex-star /* Section PAI b0x-flex-star */
+{
+     width: 400px;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+     display: flex;
+     justify-content: flex-start;
+}
+
+.box-flex-end /* Section PAI b0x-flex-end */
+{
+     width: 400px;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+     display: flex;
+     justify-content: flex-end;
+}
+
+.boxspace-between /* Section PAI Box space-between */
+{
+     width: 400px;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+     display: flex;
+     justify-content: space-between;
+}
+
+.boxspace-around /* Section PAI Box space-around */
+{
+     width: 400px;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+     display: flex;
+     justify-content: space-around;
+}
+
+.box-center /* Section PAI Box-center */
+{
+     width: 400px;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+     display: flex;
+     justify-content: center;
+}
